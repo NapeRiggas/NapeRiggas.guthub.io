@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.page-container {
+	display: flex;
+}
+.left-side {
+    height: 100vh;
+	width: 15%;
+	background-color: #3a5e90;
+    color: white;
+}
+
+.right-side {
+    height: 100vh;
+	width: calc(87% - 6px);
+    margin-left: 40px;
+    h1{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h2{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+.avatar {
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	border-radius: 50%;
+    margin-left: 65px;
+}
+.image {
+	display: block;
+	width: 100%;
+}
+.hr_left{
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.personal{  
+    margin-left: 30px;
+    ul{
+        margin-bottom: 10px;
+        list-style: none;
+    }
+}
+.hobby{  
+    margin-left: 30px;
+    margin-top: 20px;
+    ul{
+        margin-bottom: 5px;
+        list-style: none;
+    }
+}
+  .language{  
+    margin-left: 30px;
+    margin-top: 20px;
+    ul{
+        margin-bottom: 10px;
+        list-style: none;
+    }
+}  
+span{
+font-style: italic;
+}
+.hr_right{
+    margin-bottom: 20px;
+}
+.projects{
+    li{ 
+        display: inline-block;
+        margin-right: 10px;
+    }
+}
